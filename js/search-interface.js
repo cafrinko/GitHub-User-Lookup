@@ -1,5 +1,5 @@
 // require(...) imports the exports package which contains the ajaxRequest function module
-var ajaxRequest = require('./../js/weather_request.js').ajaxRequest;
+var ajaxRequest = require('./../js/github_request.js').ajaxRequest;
 
 // empty fields
 function resetFields () {
