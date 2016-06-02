@@ -2,10 +2,10 @@
 var githubRequest = require('./../js/github_request.js').githubRequest;
 
 $(document).ready(function() {
-  var currentWeatherObject = new Weather();
-  $('#weatherLocation').click(function() {
-    var city = $('#location').val();
-    $('#location').val("");
-    currentWeatherObject.getWeather(city);
+  var currentSearchObject = new Search();
+  $('#search').click(function() {
+    var user = $('#username').val();
+    $('#username').val("");
+    currentSearchObject.getRepos(user);
   });
 });
