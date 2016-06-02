@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <!-- Bower powered js vendor file -->
+    <script src="build/js/vendor.min.js"></script>
+    <!-- Bower powered css vendor file -->
+    <link href="build/css/vendor.css" rel="stylesheet">
+    <!-- my css -->
+    <link href="app.css" rel="stylesheet">
+    <!-- js execution file -->
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <!-- google font -->
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <title>GitHub User Search</title>
+  </head>
+
+  <body>
+    <div class = "jumbotron">
+      <h2>GitHub User Search</h2>
+    </div>
+    <div class="container">
+      <form id="userSearch">
+        <label for="username">Search for a Github User's Repository</label>
+        <input type="text" id="username">
+        <button type="submit" class="btn btn-info" id="search" name="button">Search</button>
+      </form><br>
+
+      <div class="result">
+        Username: <div class="showUsername"></div>
+        <div class="showRepoName"></div>
+        <div class="showDescription"></div>
+        <div class="showError"></div>
+      </div>
+
+    </div>
+  </body>
+</html>
