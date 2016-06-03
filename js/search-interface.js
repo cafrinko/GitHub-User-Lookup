@@ -1,12 +1,12 @@
 // require(...) imports the exports package which contains the ajaxRequest function module
-var githubRequest = require('./../js/github-request.js').Search;
+var User = require('./../js/github-request.js').User;
 
 $(document).ready(function() {
-  var currentSearchObject = new githubRequest();
-  console.log(githubRequest);
-  $('#search').click(function() {
+  var currentUserObject = new User();
+  console.log(currentUserObject);
+  $('#searchUser').click(function() {
     var user = $('#username').val();
     $('#username').val("");
-    currentSearchObject.getRepos(user);
+    currentUserObject.getRepos(user);
   });
 });
