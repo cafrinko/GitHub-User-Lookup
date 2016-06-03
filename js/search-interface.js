@@ -6,7 +6,8 @@ $(document).ready(function() {
   console.log(currentUserObject);
   $('#searchUser').click(function() {
     var user = $('#username').val();
-    $('#username').val("");
+    // $('#username').val("");
     currentUserObject.getRepos(user);
+    event.preventDefault();
   });
 });
