@@ -19,5 +19,3 @@ exports.Search.prototype.getRepos = function(username){
     $('.showError').text(error.responseJSON.message);
   });
 };
-
-exports.githubRequest = 'hello';
