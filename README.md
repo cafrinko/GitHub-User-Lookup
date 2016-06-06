@@ -32,7 +32,7 @@ _If you run into any issues or have questions, ideas or concerns, or want to mak
 
 ## Technologies Used
 
-_To create this app, Angular and Typescript were used._
+_To create this app, JavaScript, Node, Gulp, Bower and the GitHub API were used._
 
 ### License
 
