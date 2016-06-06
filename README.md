@@ -1,37 +1,43 @@
-# _{GitHub User Lookup}_
+# _GitHub User Lookup_
 
-#### _{Search GitHub username and get a list of the user's repositories, including descriptions}, {June 2, 2016}_
+#### _Search GitHub username and get a list of the user's repositories, including descriptions, June 2, 2016_
 
-#### By _**{Catherine Karra}**_
+#### By _**Catherine Karra**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This application sends a request to the GitHub API specifically for a user's repositories, and prints a list of the user's repositories, as well as any descriptions associated with those repositories._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* To use make a successful request to the GitHub APIou need your own GitHub API key that you will enter in the .env file in the root directory
+* Log into GitHub, navigate to settings, click personal access tokens, and generate one, then insert it in the .env file where prompted
+- clone repo
+- npm install
+- bower install
+- install globals if needed (gulp, bower, and sass packages.)
+  - npm install gulp -g
+  - npm install bower -g
+  - gem install sass
+- gulp build
+- gulp serve
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_The scss file has css that has not been refactored into scss yet. The css isn't rendering on the page. I will work on getting this to work._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you run into any issues or have questions, ideas or concerns, or want to make a contribution to the code, contact Catherine Karra at catherine.karra@gmail.com._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_To create this app, Angular and Typescript were used._
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Licensed under MIT.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Catherine Karra_**
