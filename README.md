@@ -22,8 +22,6 @@ _This application sends a request to the GitHub API specifically for a user's re
 - gulp build
 - gulp serve
 
-_Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?_
-
 ## Known Bugs
 
 _The scss file has css that has not been refactored into scss yet. The css isn't rendering on the page. I will work on getting this to work._
