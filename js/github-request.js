@@ -7,7 +7,7 @@ exports.User = function(){
 };
 
 exports.User.prototype.getRepos = function(username){
-  $.get('https://api.github.com/users/cafrinko/repos' + '?access_token=' + apiKey).then(function(response){
+  $.get('https://api.github.com/users/' + username + '/repos' + '?access_token=' + apiKey).then(function(response){
     // console.log(response);
     // debugger;
     for(i = 0; i < response.length; i++) {
