@@ -7,8 +7,9 @@ exports.User = function(){
 };
 
 exports.User.prototype.getRepos = function(username){
+  $('.showRepos').empty();
   $.get('https://api.github.com/users/' + username + '/repos' + '?access_token=' + apiKey).then(function(response){
-    // console.log(response);
+    console.log(response);
     // debugger;
     for(i = 0; i < response.length; i++) {
       var tempResponse = response[i];
